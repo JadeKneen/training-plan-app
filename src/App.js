@@ -7,10 +7,6 @@ function App() {
   return (
     <div className="App">
       <main className="flexbox">
-        <header></header>
-        {/* <Board className="board" id="board-form">
-          <Form />
-        </Board> */}
         <Board className="board" id="board-monday">
           <h2>Monday</h2>
           <Card
