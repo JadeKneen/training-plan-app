@@ -50,11 +50,8 @@ h2 {
   font-family: sans-serif;
 }
 
-form {
-  background-color: slategrey;
-  height: 500px;
-  width: 500px;
-  padding: 20px;
+.card .textbox {
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
 }
-
-

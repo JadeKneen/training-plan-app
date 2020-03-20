@@ -23,13 +23,19 @@ function Card(props) {
       onDragOver={dragOver}
     >
       {props.children}
+      <label className="textbox">
+        <input
+          className="textbox"
+          type="text"
+          placeholder="Type workout here"
+          multiline="true"
+        />
+      </label>
       <div
         className="faicons"
         icon="trash"
         onClick={() => props.deleteItem(props.id)}
-      >
-
-      </div>
+      ></div>
     </div>
   );
 }

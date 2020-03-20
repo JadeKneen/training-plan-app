@@ -1,14 +1,16 @@
 import React from "react";
 import Board from "./Components/Board";
 import Card from "./Components/Card";
-import Form from "./Components/Form";
+import reactstrap from "reactstrap";
 
 function App() {
   return (
     <div className="App">
       <main className="flexbox">
         <header></header>
-
+        {/* <Board className="board" id="board-form">
+          <Form />
+        </Board> */}
         <Board className="board" id="board-monday">
           <h2>Monday</h2>
           <Card
@@ -73,7 +75,6 @@ function App() {
           ></Card>
         </Board>
       </main>
-      <main className="flexbox">{/* <Form /> */}</main>
     </div>
   );
 }
