@@ -31,11 +31,6 @@ function Card(props) {
           multiline="true"
         />
       </label>
-      <div
-        className="faicons"
-        icon="trash"
-        onClick={() => props.deleteItem(props.id)}
-      ></div>
     </div>
   );
 }
